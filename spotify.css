@@ -1,0 +1,107 @@
+
+.gradient-container{
+    background: linear-gradient(180deg,#1DB954,#0a0a0a);
+    
+    display:block;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 24px;
+    align-content: center;
+    align-items: left;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+
+}
+
+.button1 {
+    
+  font-size: 24px; 
+  background-color: rgb(3, 24, 18);
+  color: white;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 20px;
+  size: 100px;
+  display:inline-block;
+  margin: auto;
+  width: 20%;
+}
+  .button2 {
+  font-size: 24px;  
+  background-color: rgb(3, 24, 18);
+  color: white;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 20px;
+  size: 100px;
+  display:inline-block;
+  margin: auto;
+  width: 20%;
+}
+  .button3 {
+  font-size: 24px;  
+  background-color: rgb(3, 24, 8);
+  color: white;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 20px;
+  size: 100px;
+  display:inline-block;
+  margin: auto;
+  width: 20%;
+}
+
+
+.images{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.network{
+    
+    padding: 10px;
+}
+.wifi{
+    padding: 10px;
+}
+.battery{
+    padding: 10px;
+}
+
+.image{
+    padding: 20px;
+}
+
+.play{
+    
+    position:absolute;
+    right: 90px;
+    top:65%;
+    transform: translateY(-40%);
+    
+    
+}
+
+.spotify{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+}
